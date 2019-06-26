@@ -1,15 +1,7 @@
 print('=============================================== ToDoList ===============================================')
 
 words = input('Enter your word to make a list : ').title()
-
 list = words.split()
-
-#for adding in list
-def function(words):
-  for words in list:
-    index = 0
-    index +=1
-function(words)
 
 while True:
   print('Please select below options')
